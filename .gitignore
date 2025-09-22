@@ -45,3 +45,5 @@ msbuild.wrn
 addons
 version-*.zip
 upload*.sh
+sftp_pass.txt
+
