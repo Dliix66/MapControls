@@ -4,12 +4,12 @@ using Template.Tools;
 
 namespace BotSlay
 {
-	public partial class TemplatePlugin: IPluginConfig<TemplateConfig>
+	public partial class MapControls: IPluginConfig<MapControlsConfig>
 	{
-		public TemplateConfig Config { get; set; }
+		public MapControlsConfig Config { get; set; }
 		public int moduleConfigVersion = 1;
 
-		public void OnConfigParsed(TemplateConfig config)
+		public void OnConfigParsed(MapControlsConfig config)
 		{
 			LogHelper.Log("Config parsed!");
 

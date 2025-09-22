@@ -4,14 +4,14 @@ using CounterStrikeSharp.API.Modules.Utils;
 
 namespace BotSlay;
 
-public partial class TemplatePlugin: BasePlugin
+public partial class MapControls: BasePlugin
 {
-	public override string ModuleName => $"{nameof(TemplatePlugin)}";
+	public override string ModuleName => $"{nameof(MapControls)}";
 	public override string ModuleVersion => "1.0.0";
 	public override string ModuleAuthor => "Dliix66";
-	public override string ModuleDescription => "TODO";
+	public override string ModuleDescription => "Simple plugin to enable maps commands like RTV, nominate, votemap, nextmap, timeleft...";
 
-	public static TemplatePlugin Instance { get; private set; } = null!;
+	public static MapControls Instance { get; private set; } = null!;
 
 	public override void Load(bool hotReload)
 	{

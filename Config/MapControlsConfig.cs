@@ -4,7 +4,7 @@ using CounterStrikeSharp.API.Core;
 
 namespace Template.Config;
 
-public class TemplateConfig: BasePluginConfig
+public class MapControlsConfig: BasePluginConfig
 {
 	public override int Version { get; set; } = 1;
 

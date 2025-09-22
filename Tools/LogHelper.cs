@@ -40,7 +40,7 @@ namespace Template.Tools
 
 		public static void LogDebug(string message, bool printStackTrace = false, ConsoleColor foregroundColor = ConsoleColor.DarkMagenta, ConsoleColor backgroundColor = ConsoleColor.DarkGray)
 		{
-			if (TemplatePlugin.Instance.Config.debug)
+			if (MapControls.Instance.Config.debug)
 				SubLog(message, printStackTrace, foregroundColor, backgroundColor);
 		}
 
