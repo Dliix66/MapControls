@@ -44,3 +44,4 @@ msbuild.wrn
 
 addons
 version-*.zip
+upload*.sh
