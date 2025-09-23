@@ -7,6 +7,7 @@ Simple plugin to enable maps commands:
 - nominate
 - votemap
 - nextmap
+- extend
 
 # Installation
 

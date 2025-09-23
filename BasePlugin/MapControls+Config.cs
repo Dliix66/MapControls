@@ -1,8 +1,8 @@
-using Template.Config;
 using CounterStrikeSharp.API.Core;
+using Template.Config;
 using Template.Tools;
 
-namespace BotSlay
+namespace Template.BasePlugin
 {
 	public partial class MapControls: IPluginConfig<MapControlsConfig>
 	{

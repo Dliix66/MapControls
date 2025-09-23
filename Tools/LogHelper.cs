@@ -1,5 +1,5 @@
 using System;
-using BotSlay;
+using MapControls = Template.BasePlugin.MapControls;
 
 namespace Template.Tools
 {

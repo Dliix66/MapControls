@@ -1,10 +1,9 @@
 ﻿using CounterStrikeSharp.API;
-using CounterStrikeSharp.API.Core;
 using CounterStrikeSharp.API.Modules.Utils;
 
-namespace BotSlay;
+namespace Template.BasePlugin;
 
-public partial class MapControls: BasePlugin
+public partial class MapControls: CounterStrikeSharp.API.Core.BasePlugin
 {
 	public override string ModuleName => $"{nameof(MapControls)}";
 	public override string ModuleVersion => "1.0.0";
